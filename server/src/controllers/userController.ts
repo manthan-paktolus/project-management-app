@@ -13,4 +13,3 @@ export const getUsers = async (req: Request, res: Response): Promise<void> => {
       .json({ message: `Error retrieving users: ${error.message}` });
   }
 };
-
